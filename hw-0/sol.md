@@ -17,3 +17,6 @@ It is just domain service responsible for task management
 I think it should be noted that it stores immutable and calculated data needed for billing and analytics. Perhaps this will help later in the design.
 
 At the end of each day cron job should be executed. It starts the payment
+
+### P.S
+analytics and accounting services should be splitted
